@@ -23,7 +23,25 @@ a:hover {
   color: #37b3ed;
   text-decoration: none;
 }
+.larger-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
 
+/* 或者如果你想在大屏幕上更大一些 */
+@media (min-width: 992px) {
+  .larger-text {
+    font-size: 1.8rem;
+  }
+}
+.poem-text {
+    margin-top: 20px;
+}
+
+.poem-text p {
+    margin-bottom: 5px;
+}
 h1,
 h2,
 h3,
